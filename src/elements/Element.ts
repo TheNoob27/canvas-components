@@ -254,6 +254,7 @@ export default class CanvasElement {
             if (addX > this.width) return [this.x, pY + addY]
             return [pX + addX, pY]
           }, [0, 0])
+          ctx.fillStyle = "#000000"
           ctx.fillText(child, x, y)
         })
       }
