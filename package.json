@@ -12,9 +12,11 @@
     "canvas": "^2.7.0",
     "color-convert": "^2.0.1",
     "domhandler": "^4.2.0",
-    "html-parser2": "^1.0.2"
+    "htmlparser2": "^6.1.0"
   },
   "devDependencies": {
-    "@types/color-convert": "^2.0.0"
+    "@types/color-convert": "^2.0.0",
+    "@types/htmlparser2": "^3.10.2",
+    "@types/node": "^15.0.2"
   }
 }
